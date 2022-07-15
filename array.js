@@ -49,3 +49,15 @@ let studentRecords1 = [ {name: 'John', id: 123, marks : 98 },
                 return mark;
     }).filter(mark => mark.marks > 50).reduce((acc,cur) => acc+cur.marks,0);
     console.log(arr7);
+ //Question 8: Create 6 objects , each object will have name, class, roll no as properties. 
+//Store these objects in an array of objects. 
+
+//Ans.    let studentRecords2 = 
+        [ 
+            {name: 'vinaayak', class: 10, Rollno : 25 },
+            {name: 'pratU', class: 8, Rollno : 23 },
+            {name: 'Kevya', class: 12, Rollno : 45 },
+            {name: 'shubham', class: 11, Rollno : 55 }, 
+            {name: 'Kishor', class: 7, Rollno : 21 },
+            {name: 'mayuri', class: 9, Rollno : 14 } 
+        ];
